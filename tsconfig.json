@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "types": ["vite/client", "vite-svg-loader", "node"],
+    "baseUrl": "./",
+    "noEmit": true
+  },
+  "include": ["src/**/*.ts", "src/*.d.ts", "src/components/**/*.vue"],
+  "exclude": ["node_modules", "dist", "storybook-static"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
