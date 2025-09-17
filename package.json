@@ -11,8 +11,8 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "vite build && storybook build",
     "dev": "storybook dev -p 6006 --no-open",
+    "build": "vite build && storybook build",
     "lint": "eslint **/*.{js,ts,vue} && stylelint src/**/*.{scss,vue}",
     "ts": "vue-tsc --noEmit"
   },
@@ -59,7 +59,7 @@
     "vue": "3.5.21"
   },
   "engines": {
-    "npm": ">=11.5.1",
-    "node": ">=24.6.0"
+    "npm": "11",
+    "node": "24"
   }
 }
