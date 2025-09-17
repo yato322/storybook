@@ -10,9 +10,6 @@ const meta: Meta<typeof IsButton> = {
     layout: {
       options: ['primary', 'secondary'],
     },
-    type: {
-      options: ['submit', 'button'],
-    },
   },
 };
 
