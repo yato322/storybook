@@ -1,10 +1,10 @@
 import { Meta, StoryObj } from '@storybook/vue3';
 
-import { IsButton } from '..';
+import { UiButton } from '..';
 import { html } from '../../helpers';
 
-const meta: Meta<typeof IsButton> = {
-  component: IsButton,
+const meta: Meta<typeof UiButton> = {
+  component: UiButton,
   args: {},
   argTypes: {
     layout: {
@@ -15,11 +15,11 @@ const meta: Meta<typeof IsButton> = {
 
 export default meta;
 
-export const Primary: StoryObj<typeof IsButton> = {
+export const Primary: StoryObj<typeof UiButton> = {
   render: (args) => ({
-    components: { IsButton },
+    components: { UiButton },
     setup: () => ({ args }),
 
-    template: html` <IsButton v-bind="args">Текст</IsButton>`,
+    template: html` <UiButton v-bind="args">Текст</UiButton>`,
   }),
 };
