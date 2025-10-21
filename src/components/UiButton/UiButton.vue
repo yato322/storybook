@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 interface IProps {
-  layout?: 'primary' | 'outlined';
+  layout?: 'primary' | 'secondary';
   type?: 'submit' | 'button';
   isDisabled?: boolean;
 }
