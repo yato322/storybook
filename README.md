@@ -15,5 +15,7 @@ node.js 24
 git clone https://github.com/dergunovs/is.git
 
 открыть появившуюся папку в vs code
+
 открыть терминал в vs code
+
 написать в терминале в vs code: npm install
