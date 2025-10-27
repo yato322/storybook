@@ -1,7 +1,7 @@
 {
-  "name": "is-components-new",
+  "name": "lutbiy-animeshnik",
   "description": "Is components",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",

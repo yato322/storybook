@@ -5,10 +5,18 @@ import { html } from '../../helpers';
 
 const meta: Meta<typeof UiButton> = {
   component: UiButton,
-  args: {},
+  args: { layout: 'primary', type: 'button', isDisabled: false },
   argTypes: {
     layout: {
       options: ['primary', 'secondary'],
+      control: { type: 'radio' },
+    },
+    type: {
+      options: ['submit', 'button'],
+      control: { type: 'radio' },
+    },
+    isDisabled: {
+      control: { type: 'boolean' },
     },
   },
 };
